@@ -1,2 +1,12 @@
 mkdir doc arc ugsacuy
-cdd
+
+touch
+echo
+
+find
+mv
+cp 
+
+find grep
+
+pencariab
