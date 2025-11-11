@@ -10,3 +10,7 @@ cp
 find grep
 
 pencariab
+
+
+poyek 2
+
