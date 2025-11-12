@@ -1,0 +1,23 @@
+LANGKAH 1
+
+#MEMBUAT FOLDER:
+nandokatili@nandokatili-VirtualBox:~$ mkdir project_Sistem_Operasi_B
+
+
+LANGKAH 2
+
+#MEMBUAT FOLDER DI DALAM FOLDER:
+nandokatili@nandokatili-VirtualBox:~/project_Sistem_Operasi_B$ mkdir src doc data
+
+LANGKAH 3
+
+#MEMBUAT FILE KOSONG MENGGUNAKAN TOUCH:
+nandokatili@nandokatili-VirtualBox:~/project_Sistem_Operasi_B$ touch README.md src/main.sh
+
+LANGKAH 4
+
+#MENAMPILKAN PROJECT DENGAN FORMAT YANG MUDAH DIBACA:
+nandokatili@nandokatili-VirtualBox:-$ du -sh project_Sistem_Operasi_B
+
+#TAMPILANNYA:
+16K project_sistem_Operasi_B
