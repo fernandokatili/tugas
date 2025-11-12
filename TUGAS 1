@@ -3,8 +3,6 @@ LANGAKAH 1
 #MEMBUAT FOLDER:
 nandokatili@nandokatili-VirtualBox:~$ mkdir dokuments images archives logs
 
-LANGKAH 2
-
 #MEMBUAT FILE MENGGUNAKAN TOUCH DAN ECHO:
 nandokatili@nandokatili-VirtualBox:~$ touch file_1.txt file_2.pdf file_3.doc file_4.ppt file_5. docx
 nandokatili@nandokatili-VirtualBox:~$ touch foto_1.png foto_2.jpg foto_3.jpeg foto _4. png foto_5.jpg
@@ -31,7 +29,9 @@ nandokatili@nandokatili-VirtualBox:~$ echo "log system ke-3" > log_3.log
 nandokatili@nandokatili-VirtualBox:~$ echo "log system ke-4" > log_4.log
 nandokatili@nandokatili-VirtualBox:~$ echo "log system ke-5" > log_5.log
 
-LANGKAH 3
+
+LANGKAH 2
+
 #Memindahkan File ke Folder Sesuai Ekstensi Menggunakan find, mv, dan cp
 
 #MEMINDAHKAN FILE KE FOLDER DOKUMENTS:
