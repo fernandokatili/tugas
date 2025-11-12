@@ -1,5 +1,5 @@
 #Membuat Folder:
-nandokatili@nandokatili-VirtualBox:~$mkdirdokuments images archives logs
+nandokatili@nandokatili-VirtualBox:~$ mkdirdokuments images archives logs
 
 #Membuat File Menggunakan Touch dan Echo:
 nandokatili@nandokatili-VirtualBox:~$ touch file_1.txt file_2.pdf file_3.doc file_4.ppt file_5. docx
@@ -29,22 +29,22 @@ nandokatili@nandokatili-VirtualBox:~$ echo "log system ke-5" > log_5.log
 
 #Memindahkan File ke Folder Sesuai Ekstensi Menggunakan find, mv, dan cp 
 nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.pdf" -exec mv {} dokuments/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . - type f -name *.txt" -exec mv {}dokuments/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.txt" -exec mv {}dokuments/ \;
 nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.doc" -exec mv {}dokuments/ \;
 nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.docx" -exec mv {} dokuments/ \;
 nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.ppt" -exec mv {} dokuments/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.zip" - exec mv {} archives/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.rar" - exec mv {} archives/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.7z" - exec mv {} archives/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.jpg" - exec mv {} images/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.png" - exec mv {} images/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.jpeg" - exec mv {} images/ \;
-nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.log" - exec cp {} logs/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.zip" -exec mv {} archives/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.rar" -exec mv {} archives/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.7z" -exec mv {} archives/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.jpg" -exec mv {} images/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.png" -exec mv {} images/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.jpeg" -exec mv {} images/ \;
+nandokatili@nandokatili-VirtualBox:~$ find . -type f -name "*.log" -exec cp {} logs/ \;
 
 #wkwkek
 nandokatili@nandokatili-VirtualBox:~$ find ~/dokuments -type f -iname "*file*"
-nandokatili@nandokatili-VirtualBox :~$ find ~/logs -type f -size -300k -exec ls -lh {} \;
-nandokatili@nandokatili-VirtualBox :~$ find ~/archives -type f -exec grep -li "file arsip" {} \;
+nandokatili@nandokatili-VirtualBox:~$ find ~/logs -type f -size -300k -exec ls -lh {} \;
+nandokatili@nandokatili-VirtualBox:~$ find ~/archives -type f -exec grep -li "file arsip" {} \;
 
 #Membuat Laporan Statistik File Sistem
 nandokatili@nandokatili-VirtualBox:~$ echo "LAPORAN STATISTIK SISTEM FILE" >> report.txt
